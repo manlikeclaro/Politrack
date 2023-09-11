@@ -149,7 +149,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 2.5em;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
