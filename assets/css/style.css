@@ -123,6 +123,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #header.header-scrolled,
@@ -233,7 +235,7 @@ h6 {
 }
 
 .fixed-top a {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .header-scrolled a {
@@ -310,7 +312,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  /* color: #fff; */
   font-size: 28px;
   cursor: pointer;
   display: none;
