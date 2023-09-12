@@ -644,6 +644,13 @@ section {
   padding-top: 20px;
 }
 
+.features h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
 .features .icon-box {
   padding-left: 15px;
 }
