@@ -127,7 +127,9 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #header .logo {
@@ -149,8 +151,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 2.5em;
-  border-radius: 10px;
+  max-height: 2em;
+  border-radius: 8px;
 }
 
 /*--------------------------------------------------------------
@@ -209,7 +211,8 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -225,7 +228,16 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  /* color: #ffc451; */
+  color: #f8bd46;
+}
+
+.fixed-top a {
+  color: #fff;
+}
+
+.header-scrolled a {
+  color: #000;
 }
 
 .navbar .dropdown ul {
@@ -525,7 +537,8 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  /* color: #aaaaaa; */
+  color: #444444;
   font-family: "Poppins", sans-serif;
 }
 
@@ -670,6 +683,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .services .icon-box .icon {
@@ -691,6 +705,13 @@ section {
   transition: ease-in-out 0.3s;
 }
 
+.services h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
@@ -698,7 +719,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
+  color: #444444;
   transition: ease-in-out 0.3s;
 }
 
@@ -1225,9 +1246,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  background: #f8f9fa;
+}
+
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #f8f9fa;
 }
 
 .contact .info i {
@@ -1266,7 +1291,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #f8f9fa;
 }
 
 .contact .php-email-form .form-group {
@@ -1335,7 +1360,16 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+/* .contact .php-email-form button[type=submit] {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+} */
+
+.contact .php-email-form button {
   background: #ffc451;
   border: 0;
   padding: 10px 24px;
